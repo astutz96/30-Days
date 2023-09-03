@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">30 Days</string>
+    <string name="day_1_indicator">Day 1</string>
+    <string name="day_2_indicator">Day 2</string>
+    <string name="day_3_indicator">Day 2</string>
+    <string name="day_4_indicator">Day 2</string>
+    <string name="day_5_indicator">Day 2</string>
+    <string name="day_1_tip">This is the day 1 tip</string>
+    <string name="day_2_tip">This is the day 2 tip</string>
+    <string name="day_3_tip">This is the day 3 tip</string>
+    <string name="day_4_tip">This is the day 4 tip</string>
+    <string name="day_5_tip">This is the day 5 tip</string>
+    <string name="day_1_tip_instructions">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="day_2_tip_instructions">mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus viverra</string>
+    <string name="day_3_tip_instructions">ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis</string>
+    <string name="day_4_tip_instructions">tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium</string>
+    <string name="day_5_tip_instructions">dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla</string>
 </resources>
