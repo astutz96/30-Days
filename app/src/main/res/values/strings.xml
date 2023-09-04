@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">30 Days</string>
+    <string name="app_name">30 Days Of Wellness</string>
     <string name="day_1_indicator">Day 1</string>
     <string name="day_2_indicator">Day 2</string>
-    <string name="day_3_indicator">Day 2</string>
-    <string name="day_4_indicator">Day 2</string>
-    <string name="day_5_indicator">Day 2</string>
+    <string name="day_3_indicator">Day 3</string>
+    <string name="day_4_indicator">Day 4</string>
+    <string name="day_5_indicator">Day 5</string>
     <string name="day_1_tip">This is the day 1 tip</string>
     <string name="day_2_tip">This is the day 2 tip</string>
     <string name="day_3_tip">This is the day 3 tip</string>
