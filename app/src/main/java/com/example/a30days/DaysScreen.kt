@@ -15,6 +15,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.a30days.model.Day
+import com.example.a30days.ui.theme.Typography
 
 @Composable
 fun DaysItem(day: Day, modifier: Modifier = Modifier) {
@@ -27,10 +28,10 @@ fun DaysItem(day: Day, modifier: Modifier = Modifier) {
             horizontalAlignment = Alignment.Start,
             verticalArrangement = Arrangement.SpaceEvenly
         ) {
-            Text(text = stringResource(day.indicator))
-            Text(text = stringResource(day.tip))
+            Text(text = stringResource(day.indicator), style = Typography.bodyMedium)
+            Text(text = stringResource(day.tip), style = Typography.bodyLarge)
             Image(painter = painterResource(day.imgResourceId), contentDescription = null)
-            Text(text = stringResource(id = day.description))
+            Text(text = stringResource(id = day.description), style = Typography.bodyMedium)
         }
     }
 }

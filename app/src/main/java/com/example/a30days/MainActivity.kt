@@ -23,6 +23,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.a30days.data.Datasource
+import com.example.a30days.ui.theme.Typography
 import com.example.a30days.ui.theme._30DaysTheme
 
 class MainActivity : ComponentActivity() {
@@ -65,7 +66,8 @@ fun DaysApp() {
 fun DaysTopAppBar(modifier: Modifier = Modifier){
     TopAppBar(title = {
         Text(
-            text = stringResource(R.string.app_name)
+            text = stringResource(R.string.app_name),
+            style = Typography.displaySmall
         )
     }, modifier = modifier)
 }
